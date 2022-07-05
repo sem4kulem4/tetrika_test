@@ -1,4 +1,4 @@
-def task(mass: str) -> bool | int:
+def task(mass: str) -> bool or int:
     mass = list(mass)
     for index, num in enumerate(mass):
         if num == '0':
@@ -6,5 +6,6 @@ def task(mass: str) -> bool | int:
     return False
 
 
-array = '111111111110000000000000000'
-print(task(array))
+if __name__ == "__main__":
+    array = '111111111110000000000000000'
+    print(task(array))

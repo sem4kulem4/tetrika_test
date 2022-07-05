@@ -1,4 +1,4 @@
-def task(x1: int, y1: int, x2: int, y2: int, x3: int, y3: int, x4: int, y4: int) -> bool | str:
+def task(x1: int, y1: int, x2: int, y2: int, x3: int, y3: int, x4: int, y4: int) -> bool:
     if min(x1, x2) > max(x3, x4):
         return False
     if max(x1, x2) < min(x3, x4):
